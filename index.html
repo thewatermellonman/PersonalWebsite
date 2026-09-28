@@ -14,30 +14,24 @@
       </div>
     </div>
 
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="aboutme.html">About Me</a>
+    <nav class="navbutton">
+        <button onclick="showPage('home')">Home</button>
+        <button onclick="showPage('aboutme')">About Me</button>
+        <button onclick="showPage('projects')">Projects</button>
     </nav>
-
 
     <div class="page">
         <aside class="leftside">
             <div class="leftstrip">
-                <h3>i do stuff</h3>
+                <div id="halloftarot-tarot-widget"
+                    data-bg="#f0b4d7"
+                    data-color="#321806">
+                </div>
+                <script src="https://www.halloftarot.com/widget/tarot-v1.js?deck=0&lang=en"></script>
             </div>
         </aside>
         <main>
-            <div class="mainshi">
-
-                <article class="post">
-                    <h2>First blog post :3</h2>
-                    <h4 class="date">September 27, 2026</h4>
-
-                    <p class="beef">
-                        This is my first blog post! Still trying to figure out how to do all this (ᵕ ´ᗜ`)
-                    </p>
-                </article>
+            <div class="mainshi" id="content">
             </div>
         </main>
         <aside class="rightside">
@@ -46,4 +40,5 @@
             </div>
         </aside>
     </div>
+    <script src="script.js"></script>
 </body>
