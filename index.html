@@ -7,38 +7,55 @@
 </head>
 
 <body>
-    <div class="headcontain">
-        <div class="header">
-          <h1>Maddie's Personal Site</h1>  
-          <p>♡\(˶ᵔ ᵕ ᵔ˶)/♡</p>
-      </div>
-    </div>
+    <div class="site">
+        <div class="headcontain">
+            <div class="header">
+            <h1>Maddie's Personal Site</h1>  
+            <p>♡\(˶ᵔ ᵕ ᵔ˶)/♡</p>
+        </div>
+        </div>
 
-    <nav class="navbutton">
-        <button onclick="showPage('home')">Home</button>
-        <button onclick="showPage('aboutme')">About Me</button>
-        <button onclick="showPage('projects')">Projects</button>
-    </nav>
+        <nav class="navbutton">
+            <button onclick="showPage('home')">Home</button>
+            <button onclick="showPage('aboutme')">About Me</button>
+            <button onclick="showPage('projects')">Projects</button>
+        </nav>
 
-    <div class="page">
-        <aside class="leftside">
-            <div class="leftstrip">
-                <div id="halloftarot-tarot-widget"
-                    data-bg="#f0b4d7"
-                    data-color="#321806">
+        <div class="page">
+            <aside class="leftside">
+                <div class="leftstrip">
+                    <img src="pinkie.jpg" alt="Pinkie Pie!" width="275px">
+                    <div id="halloftarot-tarot-widget"
+                        data-bg="#f0b4d7"
+                        data-color="#321806">
+                    </div>
+                    <script src="https://www.halloftarot.com/widget/tarot-v1.js?deck=0&lang=en"></script>
                 </div>
-                <script src="https://www.halloftarot.com/widget/tarot-v1.js?deck=0&lang=en"></script>
-            </div>
-        </aside>
-        <main>
-            <div class="mainshi" id="content">
-            </div>
-        </main>
-        <aside class="rightside">
-            <div class="rightstrip">
-                <h3>i like music</h3>
-            </div>
-        </aside>
+            </aside>
+            <main>
+                <div class="mainshi" id="content">
+                </div>
+            </main>
+            <aside class="rightside">
+                <div class="rightstrip">
+                    <h3 class="musichead">what's on repeat</h3>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7K3Lc3TfSR14aTOjIH7TUj?utm_source=generator&theme=0&si=4a832a8c8fb54a50" width="80%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/2zcHqgikAH6wnSCdJbxDuF?utm_source=generator&theme=0&si=b42a93efde8342c2" width="80%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/0n6u7oiHlNBuxTXylDBDvC?utm_source=generator&theme=0&si=6374996f9b8d41cf" width="80%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3x4378ztiLvFmm2nuzEI0C?utm_source=generator&theme=0&si=3311799872d34c73" width="80%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/3XDcumdbMgD411MNqqS77F?utm_source=generator&theme=0&si=c1bafc20f2cc4bda" width="80%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/7pS3O75hJnthHr64tlpqPn?utm_source=generator&theme=0&si=b4f80317a3f5486d" width="80%" height="90" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+                </div>
+            </aside>
+        </div>
+        <script src="script.js"></script>
     </div>
-    <script src="script.js"></script>
 </body>
+<footer>
+    <div class="footer">
+        <div class="footer-content">
+            <p>made with sparkles and glitter</p>
+        </div>
+    </div>
+</footer>
