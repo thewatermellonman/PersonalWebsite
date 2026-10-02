@@ -40,7 +40,23 @@ function showPage(page) {
         content.innerHTML = `
             <div class="middle">
                 <h2>All about Maddie!!</h2>
-                <p>pinkpinkpink</p>
+                <div class="post">
+                    <p>
+                        Hi! I'm Maddie.
+                    </p>
+                    <p class="beef">
+                        I'm 16, and I love to make technical things superrrr pink ◝(˶˃ ᵕ ˂˶) ◜♡
+                    </p>
+                    <p class="beef">
+                        I'm a highschool junior that is struggling to balance my life and school (╥﹏╥) 
+                        Besides that, I love to play music and dance. I play alto sax, bari sax, and flute.
+                        In dance, I mostly do modern, but I often include ballet styles in my dancing.
+                    </p>
+                    <p class="beef">
+                        I've recently started a section of hack club at my school with me as the leader!
+                        I'm super excited for what we will be able to accomplish.
+                    </p>
+                </div>
             </div>
         `;
     }

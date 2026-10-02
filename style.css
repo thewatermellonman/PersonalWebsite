@@ -26,6 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px 0;
 }
 
 .header{
@@ -145,4 +146,20 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.status {
+    background-color:rgb(255, 231, 249);
+    border-radius: 12px;
+    padding: 5px;
+    border: 3px dashed rgb(228, 112, 180);
+    box-shadow: 0 4px 10px rgba(66, 11, 37, 0.795);
+    width: 200px;
+    margin: 20px auto;
+}
+
+.contain {
+    display: flex;
+    justify-content: center;
+
 }
